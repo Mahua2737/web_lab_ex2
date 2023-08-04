@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+
+* {
+    font-family: 'Borel', cursive;
+}
+
+
+
+
+.banner {
+    background-color: gray;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-img {
+    background-color: rgb(255, 0, 0);
+    width: 60rem;
+    display: flex;
+    justify-content: center;
+
+
+    padding: 1rem
+}
+
+.bg-imgs {
+    background-image: url('./images/aurora-4.jpg');
+    height: 80vh;
+    width: 100%;
+    margin: 0 !important;
+    background-size: cover;
+}
+
+.flex-continer {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.flex-item {
+    color: rgb(33, 18, 5);
+    font-size: 1.2em;
+    text-align: center;
+    padding: 1em;
+}
+
+.flex-item-01 {
+    border: 1px solid blue;
+    box-shadow: 0px 0px 5px black;
+}
+
+.flex-item-02 {
+    border: 1px solid red;
+    box-shadow: 0px 0px 5px black;
+}
+
+.flex-item-03 {
+    border: 1px solid yellowgreen;
+    box-shadow: 0px 0px 5px black;
+}
+
+.flex-item-04 {
+    border: 1px solid yellow;
+    box-shadow: 0px 0px 5px black;
+}
+
+.flex-item-05 {
+    box-shadow: 2px 2px 2px rgb(221, 255, 0);
+
+}
+
+.cImage {
+    height: 100px;
+}
+
+.parallax {
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg");
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
